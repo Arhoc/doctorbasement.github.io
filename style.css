@@ -1,15 +1,40 @@
 body {
-	background-color: black
+	background-color: black;
 }
 
 h1, p {
+	text-align: center;
 	font-family: 'Courier New';
-	color: white
+	color: white;
+}
+
+.imgpreview {
+	display: block;
+	margin: 0.5em;
+	width: 40em;
+	height: 40em;
+	border: 2px solid white;
+}
+
+.button {
+	display: inline-block;
+	background-color: #5fa8d3;
+	width: 8em;
+	height: 2em;
+
+	position: relative;
+	left: 40%;
+	
+	border: 1px solid #5fa8d3;
+	border-radius: 5px;
 }
 
 .download {
 	font-family: 'Arial';
 	font-weight: bolder;
-	color: cyan;
+	color: white;
 
+	top: 20%;
+	left: 20%;
+	position: absolute;
 }
